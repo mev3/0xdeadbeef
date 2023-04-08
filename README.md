@@ -37,7 +37,9 @@
 ## 2. 🔰 TFSniffer
 
 [仓库](https://github.com/mev3/TSniffer)
+
 TSniffer 是面向恶意代币的检测器，可检测的恶意代币类型包括：
+
 - 带权限的代币转账
 	- 仅限白名单用户转账
 	- 禁止黑名单用户转账
