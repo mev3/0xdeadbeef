@@ -59,10 +59,10 @@ TSniffer基于多交易组合和带语义信息的符号执行技术相结合的
 
 [仓库](https://github.com/mev3/scaner)
 
-通过Trace信息来搜集MEV相关交易，由于是通过Trace搜集，即使失败的交易可以被捕获到，相比 https://eigenphi.io/
+MEV Scaner通过Trace信息来搜集MEV相关交易，由于是通过Trace搜集，即使失败的交易可以被捕获到，相比 https://eigenphi.io/
 ，交易信息会更加全面。MEV Scan还可以分析出每笔Token买入卖出的交易是否收取手续费及收取的比例。
 此外，MEV SCAN 会提供额外工具来分析及展示受攻击的MEV交易，发布新的针对MEV攻击的类型。
 
 同时MEV SCAN会实时分析Flashbots节点的行为，并展示其诚实度，也会检测节点自身是否已参与MEV攻击。
 
-目前Hackthon期间已完成Sandwich攻击的交易搜集，后续开发会完成Flashloan SCAN、Arbitarage Scan、Flashbots Scan及用户友好的UI界面Explorer。
+目前Hackthon期间已完成Sandwich攻击的交易搜集，后续开发会完成Flashloan Scaner、Arbitarage Scaner、Flashbots Scaner及用户友好的UI界面Explorer。
